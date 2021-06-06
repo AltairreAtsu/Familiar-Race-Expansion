@@ -1,0 +1,43 @@
+{
+  "objectName" : "familiarbarstool",
+  "shortdescription" : "Familiar Barstool",
+  "description" : "A surprisingly comfortable barstool.",
+
+  "noteToSelf" : "Fill out scan texts.",
+
+  "category": "furniture",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 50,
+  "objectType" : "loungeable",
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarbarstoolicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarbarstool.png:<color>", "fullbright" : true }, { "image" : "familiarbarstoollit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "sitPosition" : [-2, 23],
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarbarstool.png:<color>", "fullbright" : true }, { "image" : "familiarbarstoollit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "sitPosition" : [6, 23],
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

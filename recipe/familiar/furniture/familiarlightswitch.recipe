@@ -1,0 +1,21 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 1
+        },
+        {
+            "item": "familiarelectronics",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "familiarlightswitch",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab4",
+        "all"
+    ]
+}

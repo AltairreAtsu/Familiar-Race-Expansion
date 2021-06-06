@@ -1,0 +1,40 @@
+{
+  "objectName" : "familiarwallshelf",
+  "shortdescription" : "Familiar Shelf",
+  "description" : "A wall-mounted shelf for storing and displaying items.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "commerce"],
+  "printable" : false,
+  "price" : 40,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarwallshelficon.png",
+  "orientations" : [
+      {
+        "image" : "familiarwallshelf.png:<color>",
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ],
+        "collision" : "platform"
+      },
+      {
+        "image" : "familiarwallshelf.png:<color>",
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ],
+        "collision" : "platform"
+      }
+  ]
+}

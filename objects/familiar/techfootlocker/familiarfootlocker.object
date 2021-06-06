@@ -1,0 +1,53 @@
+{
+  "objectName" : "familiarfootlocker",
+  "colonyTags" : ["familiar","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 100,
+  "description" : "A padded foot locker adorned with lights.",
+  "shortdescription" : "Familiar Foot Locker",
+  "race" : "familiar",
+  "health" : 1.5,
+  "lightColor" : [6,42,62],
+  "lightPosition" : [1,1],
+
+  "apexDescription" : "A child's toybox, surely.",
+  "avianDescription" : "Flashy foot locker design denotes importance!",
+  "floranDescription" : "Footlocker is sssshiny.",
+  "glitchDescription" : "Pleased. This is a foot locker made for my people.",
+  "humanDescription" : "I just can't resist taking a peek inside, at least.",
+  "hylotlDescription" : "This is a wonderful little foot locker design.",
+  "novakidDescription" : "Sure is one fancy glowin' foot locker.",
+  "familiarDescription" : "This footlocker is the best foot locker. I might just curl up inside~",
+
+  "inventoryIcon" : "familiarfootlockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "familiarfootlocker.png:<color>.<key>", "fullbright" : true }, { "image" : "familiarfootlockerlit.png:<color>.<key>" } ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+	"imageLayers" : [ { "image" : "familiarfootlocker.png:<color>.<key>", "fullbright" : true }, { "image" : "familiarfootlockerlit.png:<color>.<key>" } ],
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

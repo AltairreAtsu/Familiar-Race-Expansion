@@ -1,0 +1,21 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 3
+        },
+        {
+            "item": "paper",
+            "count": 5
+        }
+    ],
+    "output": {
+        "item": "familiarbookshelf",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab1",
+        "all"
+    ]
+}

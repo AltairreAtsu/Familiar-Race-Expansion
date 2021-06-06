@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarespressomachine",
+  "shortdescription" : "Familiar Espresso Machine",
+  "description" : "An Espresso Machine that produces delicious caffeinated beverages.",
+
+  "noteToSelf" : "write race scan text.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarespressomachineicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarespressomachine.png:<color>", "fullbright" : true }, { "image" : "familiarespressomachinelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarespressomachine.png:<color>", "fullbright" : true }, { "image" : "familiarespressomachinelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

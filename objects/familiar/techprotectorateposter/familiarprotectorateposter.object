@@ -1,0 +1,29 @@
+{
+  "objectName" : "familiarprotectorateposter",
+  "shortdescription" : "Protectorate Ad",
+  "description" : "A poster created by the Protectorate to attract potential recruits.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "pretty"],
+  "printable" : false,
+  "price" : 10,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarprotectoratepostericon.png",
+  "orientations" : [
+      {
+        "image" : "familiarprotectorateposter.png:<color>",
+        "imagePosition" : [-8, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

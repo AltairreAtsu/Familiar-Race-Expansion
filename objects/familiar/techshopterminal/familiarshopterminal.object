@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarshopterminal",
+  "shortdescription" : "Familiar Shop Terminal",
+  "description" : "A wall-mounted terminal displaying products and prices.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "commerce"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarshopterminalicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarshopterminal.png:<color>", "fullbright" : true }, { "image" : "familiarshopterminallit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarshopterminal.png:<color>", "fullbright" : true }, { "image" : "familiarshopterminallit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

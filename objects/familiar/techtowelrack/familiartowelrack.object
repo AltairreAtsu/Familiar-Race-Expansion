@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiartowelrack",
+  "shortdescription" : "Familiar Towel Rack",
+  "description" : "A towel rack with glowing towels.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiartowelrackicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiartowelrack.png:<color>", "fullbright" : true }, { "image" : "familiartowelracklit.png:<color>" } ],
+        "imagePosition" : [-12, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiartowelrack.png:<color>", "fullbright" : true }, { "image" : "familiartowelracklit.png:<color>" } ],
+        "imagePosition" : [-12, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

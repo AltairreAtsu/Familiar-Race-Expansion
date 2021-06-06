@@ -1,0 +1,49 @@
+{
+  "objectName" : "familiarcrate",
+  "shortdescription" : "Familiar Crate",
+  "description" : "A crate inspired by the techno-fluffy familiars.",
+
+  "noteToSelf" : "write race descriptions",
+
+  "category": "storage",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "commerce", "storage"],
+  "printable" : false,
+  "price" : 90,
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarcrateicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarcrate.png:<color>", "fullbright" : true }, { "image" : "familiarcratelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarcrate.png:<color>", "fullbright" : true }, { "image" : "familiarcratelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      }
+  ]
+}

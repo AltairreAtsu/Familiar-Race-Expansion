@@ -1,0 +1,41 @@
+{
+  "type" : "minerfamiliartenant",
+  "baseType" : "generictenant",
+	
+  "scriptConfig" : {
+    "dialog" : {
+        "converse" : {
+          "familiar" : {
+            "default" : [
+              "I used to work at an Erchius Mining facility. But I retired after there was an accident.",
+              "I didn't become a miner because I like rocks. I did it because I hate them. Passionately.",
+              "Most Familiars spend their time trying to 'unlock' the secrets of our origin. Not me. I'm happy right where I am.",
+		      "Have you seen my lucky pickaxe?",
+			  "Mining underground is a lot easier when you're entire body glows."
+            ]
+          }
+        }
+	  }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "safetyhelmethead" }
+            ],
+            "chest" : [
+              { "name" : "invischest", "data" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "invislegs", "data" : { "colorIndex" : 1 } }
+            ],
+			"back" : [
+			  { "name" : "survivalgearback" }
+			]
+          }
+        ] ]
+    ]
+  }
+}

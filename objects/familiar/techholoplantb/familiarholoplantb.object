@@ -1,0 +1,42 @@
+{
+  "objectName" : "familiarholoplantb",
+  "shortdescription" : "Familiar Holo Plant B",
+  "description" : "A holographic plant display commonly found in familiar homes.",
+
+  "noteToSelf" : "write race scan texts",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "pretty"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarholoplantbicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarholoplantb.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarholoplantblit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+        "frames" : 2,
+        "animationCycle" : 0.3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarholoplantb.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarholoplantblit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+        "frames" : 2,
+        "animationCycle" : 0.3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

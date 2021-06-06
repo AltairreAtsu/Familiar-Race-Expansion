@@ -1,0 +1,25 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 1
+        },
+        {
+            "item": "familiarelectronics",
+            "count": 1
+        },
+        {
+            "item": "fabric",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "familiarfootlocker",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab1",
+        "all"
+    ]
+}

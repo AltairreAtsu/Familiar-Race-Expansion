@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarcoffemug",
+  "shortdescription" : "Familiar Coffe Mug",
+  "description" : "A fancy coffee mug with a glowing emblem.",
+
+  "noteToSelf" : "write race descriptions.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "pretty"],
+  "printable" : false,
+  "price" : 40,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarcoffemugicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarcoffemug.png:<color>", "fullbright" : true }, { "image" : "familiarcoffemuglit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarcoffemug.png:<color>", "fullbright" : true }, { "image" : "familiarcoffemuglit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

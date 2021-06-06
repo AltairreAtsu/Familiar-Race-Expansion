@@ -1,0 +1,57 @@
+[
+	{
+		"op" : "add",
+		"path" : "/tagCriteria/familiar",
+		"value" : {
+			"default": [
+				"Whoa hey, that doesn't go there!",
+				"AAAAAAAAAAAA I DON'T LIKE CHANGE!",
+				"I... uh... can you put that... back? Please?"
+			]
+	}
+	},
+	{
+		"op" : "add",
+		"path" : "/enclosedArea/familiar",
+		"value" : {
+			"default": [
+				"Um... I'm not paw-ing the bill for these repairs, am I?",
+				"Yo. Hole in wall. Can ya fix?",
+				"Really not liking how the wall's looking there. Definitely not my style."
+			]
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/otherDeed/familiar",
+		"value" : {
+			"default": [
+				"Whoa whoa whoa, can we talk this out? I'm a solo player here~",
+				"Uh. Hey. I didn't see anything in the agreement about adding new people.",
+				"If you're moving someone else in, I'm moving myself out."
+			]
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/severe/familiar",
+		"value" : {
+			"default": [
+				"I get that I'm small and cute but I can't live like this. Really.",
+				"Hey, uh, if you don't fix things up for me then I'm gonna have to scoot.",
+				"Look, I really need you to fix this place up, or I gotta leave."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/familiar",
+		"value": {
+			"default": [
+			"Alright. Done here. Cya~",
+			"Sigh... guess I gotta find a new place.",
+			"Welp. Time to make like a keyboard and SHIFT myself elsewhere. Again."
+			]
+		}
+	}
+]

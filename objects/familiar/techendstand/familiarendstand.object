@@ -1,0 +1,49 @@
+{
+  "objectName" : "familiarendstand",
+  "shortdescription" : "Familiar End Stand",
+  "description" : "An end stand designed by the familiars.",
+
+  "noteToSelf" : "write race descriptions.",
+
+  "category": "storage",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "storage"],
+  "printable" : false,
+  "price" : 80,
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarendstandicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarendstand.png:<color>", "fullbright" : true }, { "image" : "familiarendstandlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarendstand.png:<color>", "fullbright" : true }, { "image" : "familiarendstandlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      }
+  ]
+}

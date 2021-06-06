@@ -1,0 +1,50 @@
+{
+  "objectName" : "familiaroven",
+  "shortdescription" : "Familiar Oven",
+  "description" : "An oven used by familiars to prepare food.",
+
+  "noteToSelf" : "write racial scan texts.",
+
+  "category": "crafting",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 130,
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Familiar Oven",
+        "subtitle" : " Cooks food to a reasonable standard"
+      }
+    }
+  },
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarovenicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiaroven.png:<color>", "fullbright" : true }, { "image" : "familiarovenlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiaroven.png:<color>", "fullbright" : true }, { "image" : "familiarovenlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

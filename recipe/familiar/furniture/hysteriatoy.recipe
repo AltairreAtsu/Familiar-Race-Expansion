@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "hysteriatoy",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab1",
+        "all"
+    ]
+}

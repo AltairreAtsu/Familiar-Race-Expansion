@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarbathroomsinkcounter",
+  "shortdescription" : "Familiar Bathroom Sink B",
+  "description" : "A bathroom sink with a counter, courtesy of the familiars.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 80,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarbathroomsinkcountericon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarbathroomsinkcounter.png:<color>", "fullbright" : true }, { "image" : "familiarbathroomsinkcounterlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarbathroomsinkcounter.png:<color>", "fullbright" : true }, { "image" : "familiarbathroomsinkcounterlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

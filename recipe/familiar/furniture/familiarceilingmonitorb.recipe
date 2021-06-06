@@ -1,0 +1,21 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 2
+        },
+        {
+            "item": "familiarelectronics",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "familiarceilingmonitorb",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab2",
+        "all"
+    ]
+}

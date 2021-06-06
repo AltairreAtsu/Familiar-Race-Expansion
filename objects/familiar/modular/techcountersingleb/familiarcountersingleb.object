@@ -1,0 +1,49 @@
+{
+  "objectName" : "familiarcountersingleb",
+  "shortdescription" : "Familiar Counter Single B",
+  "description" : "A counter piece part of the modular kitchen set.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "storage",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 40,
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarcountersinglebicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarcountersingleb.png:<color>", "fullbright" : true }, { "image" : "familiarcountersingleblit.png:<color>" } ],
+        "imagePosition" : [-8, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarcountersingleb.png:<color>", "fullbright" : true }, { "image" : "familiarcountersingleblit.png:<color>" } ],
+        "imagePosition" : [-8, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "familiarholoflag",
+  "shortdescription" : "Familiar Holo Flag",
+  "description" : "A holographic flag used by familiars to mark locations.",
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+
+  "noteToSelf" : "write race scan text.",
+
+  "category": "other",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 140,
+
+  "objectType" : "teleporter",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarholoflagicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarholoflag.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarholoflaglit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+        "frames" : 2,
+        "animationCycle" : 0.3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarholoflag.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarholoflaglit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+        "frames" : 2,
+        "animationCycle" : 0.3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "objectName" : "familiarstandinglamp",
+  "shortdescription" : "Familiar Standing Lamp",
+  "description" : "A standing lamp designed by the techno-fluffy familiars.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "light",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "light"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [106, 165, 174],
+  "lightPosition" : [0, 0],
+
+  "inventoryIcon" : "familiarstandinglampicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarstandinglamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarstandinglamplit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ],
+
+  "animation" : "familiarstandinglamp.animation",
+  "animationParts" : {
+    "bg" : "familiarstandinglamp.png",
+    "fg" : "familiarstandinglamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "animationPosition" : [0, 0],
+
+
+  "scripts" : [
+    "/objects/wired/light/light.lua"
+  ],
+
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "familiarslidingdoor",
+  "shortdescription" : "Familiar Sliding Door",
+  "description" : "A reinforced sliding door used by familiars.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "door",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "door"],
+  "printable" : false,
+  "price" : 130,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarslidingdooricon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarslidingdoor.png:<color>", "fullbright" : true }, { "image" : "familiarslidingdoorlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "renderLayer" : "Object+5",
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "familiarslidingdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "familiarslidingdoor.png",
+    "lit" : "familiarslidingdoorlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

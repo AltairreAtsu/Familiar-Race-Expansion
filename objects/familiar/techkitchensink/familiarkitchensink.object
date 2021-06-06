@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarkitchensink",
+  "shortdescription" : "Familiar Kitchen Sink",
+  "description" : "A kitchen sink designed by the familiars.",
+
+  "noteToSelf" : "write race scan text.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 120,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarkitchensinkicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarkitchensink.png:<color>", "fullbright" : true }, { "image" : "familiarkitchensinklit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarkitchensink.png:<color>", "fullbright" : true }, { "image" : "familiarkitchensinklit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

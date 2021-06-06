@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarwallterminalwide",
+  "shortdescription" : "Familiar Wide Wall Terminal",
+  "description" : "A wall-mounted terminal displaying useful information.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "commerce", "science"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarwallterminalwideicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarwallterminalwide.png:<color>", "fullbright" : true }, { "image" : "familiarwallterminalwidelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarwallterminalwide.png:<color>", "fullbright" : true }, { "image" : "familiarwallterminalwidelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

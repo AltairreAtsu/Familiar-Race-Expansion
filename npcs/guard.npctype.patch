@@ -1,0 +1,72 @@
+[
+{
+	"op" : "add",
+	"path" : "/items",
+	"value" : 
+	{
+		"familiar" : [
+			[0, [
+				{
+				"head" : [ { "name" : "familiartier1head" } ],
+				"chest" : [ { "name" : "familiartier1chest" } ],
+				"legs" : [ { "name" : "familiartier1pants" } ],
+				"primary" : [
+				  "npcpistol",
+				  "npcmachinepistol",
+				  "npcassaultrifle"
+				],
+				"sheathedprimary" : [
+				  "npcbroadsword"
+				]
+				}
+			] ],
+		  [2, [
+			    {
+				"head" : [ { "name" : "familiartier2head" } ],
+				"chest" : [ { "name" : "familiartier2chest" } ],
+				"legs" : [ { "name" : "familiartier2pants" } ],
+				"primary" : [
+				  "npcpistol",
+				  "npcmachinepistol",
+				  "npcassaultrifle"
+				],
+				"sheathedprimary" : [
+				  "npcbroadsword"
+				]
+			    }
+			] ],
+		  [3, [
+				{
+				"head" : [ { "name" : "familiartier3head" } ],
+				"chest" : [ { "name" : "familiartier3chest" } ],
+				"legs" : [ { "name" : "familiartier3pants" } ],
+				"primary" : [
+				  "npcpistol",
+				  "npcmachinepistol",
+				  "npcassaultrifle"
+				],
+				"sheathedprimary" : [
+				  "npcbroadsword"
+				]
+				}
+			] ],
+		  [4, [
+				{
+				"head" : [ { "name" : "familiartier4head" } ],
+				"chest" : [ { "name" : "familiartier4chest" } ],
+				"legs" : [ { "name" : "familiartier4pants" } ],
+				"primary" : [
+				  "npcpistol",
+				  "npcmachinepistol",
+				  "npcassaultrifle"
+				],
+				"sheathedprimary" : [
+				  "npcbroadsword"
+				]
+				}
+			] ]
+		]
+	}
+}
+]
+

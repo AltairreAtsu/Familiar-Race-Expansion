@@ -1,0 +1,10 @@
+{
+  "itemName" : "familiarelectronics",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "familiarelectronics.png",
+  "description" : "A collection of electronic components used for assembly of Familiar technology.",
+  "shortdescription" : "Familiar Electronics",
+  "itemTags" : [ "reagent" ]
+}

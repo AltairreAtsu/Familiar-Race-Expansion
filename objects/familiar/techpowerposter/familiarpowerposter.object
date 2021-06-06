@@ -1,0 +1,29 @@
+{
+  "objectName" : "familiarpowerposter",
+  "shortdescription" : "Power On Poster",
+  "description" : "An abstract poster created by the familiars.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "pretty"],
+  "printable" : false,
+  "price" : 10,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarpowerpostericon.png",
+  "orientations" : [
+      {
+         "image" : "familiarpowerposter.png:<color>",
+        "imagePosition" : [-8, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

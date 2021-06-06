@@ -1,0 +1,42 @@
+{
+  "objectName" : "familiarwallplant",
+  "shortdescription" : "Familiar Holo Wall Plant",
+  "description" : "A holographic plant mounted on the wall. Common in familiar homes.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "pretty"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarwallplanticon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarwallplant.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarwallplantlit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+        "frames" : 2,
+        "animationCycle" : 0.3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarwallplant.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarwallplantlit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+        "frames" : 2,
+        "animationCycle" : 0.3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

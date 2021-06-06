@@ -1,0 +1,49 @@
+{
+  "objectName" : "familiarwardrobe",
+  "shortdescription" : "Familiar Wardrobe",
+  "description" : "A wardrobe for storing clothing and apparel.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "storage",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "storage"],
+  "printable" : false,
+  "price" : 120,
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarwardrobeicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarwardrobe.png:<color>", "fullbright" : true }, { "image" : "familiarwardrobelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarwardrobe.png:<color>", "fullbright" : true }, { "image" : "familiarwardrobelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "platform"
+      }
+  ]
+}

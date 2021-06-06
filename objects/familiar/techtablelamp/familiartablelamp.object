@@ -1,0 +1,67 @@
+{
+  "objectName" : "familiartablelamp",
+  "colonyTags" : ["familiar", "light"],
+  "rarity" : "Common",
+  "description" : "A small table lamp inspired by the techno-fluffy familiars.",
+  "shortdescription" : "Familiar Table Lamp",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 90,
+
+  "lightColor" : [106, 165, 174],
+  "lightPosition" : [4, 7],
+
+  "apexDescription" : "Appears as if it should serve another purpose, but it's just a light.",
+  "avianDescription" : "Neat light, could use some crystals, though.",
+  "floranDescription" : "What sssoft blue glow.",
+  "glitchDescription" : "Appreciative. An attractive lamp.",
+  "humanDescription" : "A blue light? Eh, I'd prefer green.",
+  "hylotlDescription" : "An interesting metal light.",
+  "novakidDescription" : "A light with a nice gunmetal finish.",
+  "familiarDescription" : "A pretty snazzy light!",
+
+  "inventoryIcon" : "familiartablelampicon.png",
+  "orientations" : [
+    {
+      "image" : "familiartablelamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "familiartablelamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "familiartablelamp.animation",
+  "animationParts" : {
+    "bg" : "familiartablelamp.png",
+    "fg" : "familiartablelamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "animationPosition" : [0, 0],
+
+
+  "scripts" : [
+    "/objects/wired/light/light.lua"
+  ],
+
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

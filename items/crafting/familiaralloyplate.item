@@ -1,0 +1,10 @@
+{
+  "itemName" : "familiaralloyplate",
+  "price" : 40,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "familiaralloyplate.png",
+  "description" : "A durable alloy commonly used for construction by Familiars.",
+  "shortdescription" : "Familiar Alloy Plates",
+  "itemTags" : [ "reagent" ]
+}

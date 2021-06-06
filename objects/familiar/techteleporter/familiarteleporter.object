@@ -1,0 +1,56 @@
+{
+  "objectName" : "familiarteleporter",
+  "shortdescription" : "Familiar Teleporter",
+  "description" : "A teleporter designed by the techno-fluffy familiars.",
+
+  "noteToSelf" : "write race scan texts",
+
+  "category": "teleporter",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "misc"],
+  "printable" : false,
+  "price" : 3000,
+
+  "objectType" : "teleporter",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/remoteteleporter.config",
+
+  "teleporterFootPosition" : [0, 1],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "teleporter",
+      "teleporterComplete"
+    ],
+    "defaultReactions" : {
+      "teleporter" : [
+        [1.0, "beamaway"]
+      ],
+      "teleporterComplete" : [
+        [1.0, "vomit"],
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarteleportericon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarteleporter.png:<color>", "fullbright" : true }, { "image" : "familiarteleporterlit.png:<color>" } ],
+        "imagePosition" : [-20, 0],
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ],
+        "collision" : "solid",
+        "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+      }
+  ]
+}

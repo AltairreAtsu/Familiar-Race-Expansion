@@ -1,0 +1,29 @@
+{
+  "objectName" : "familiarpodcarousel",
+  "shortdescription" : "Familiar Pod Carousel",
+  "description" : "A carousel for storing pods used in the coffee machines.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 40,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarpodcarouselicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarpodcarousel.png:<color>", "fullbright" : true }, { "image" : "familiarpodcarousellit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

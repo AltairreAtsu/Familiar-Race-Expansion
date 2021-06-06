@@ -1,0 +1,62 @@
+{
+  "objectName" : "familiarceilinglightsmall",
+  "colonyTags" : ["familiar","light"],
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "light",
+  "lightColor" : [106, 165, 174],
+  "lightPosition" : [-8, 0],
+  "price" : 90,
+  "description" : "A unique ceiling light designed by familiars.",
+  "shortdescription" : "Familiar Ceiling Light Small",
+  "race" : "familiar",
+
+  "inventoryIcon" : "familiarceilinglightsmallicon.png",
+  "orientations" : [
+    {
+      "image" : "familiarceilinglightsmall.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "familiarceilinglightsmall.png",
+        "fg" : "familiarceilinglightsmalllit.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "familiarceilinglightsmall.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "familiarceilinglightsmall.png",
+        "fg" : "familiarceilinglightsmalllit.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "familiarceilinglightsmall.png",
+    "fg" : "familiarceilinglightsmalllit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

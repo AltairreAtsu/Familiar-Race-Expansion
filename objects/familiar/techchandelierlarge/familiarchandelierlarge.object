@@ -1,0 +1,62 @@
+{
+  "objectName" : "familiarchandelierlarge",
+  "colonyTags" : ["familiar","light"],
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "light",
+  "lightColor" : [106, 165, 174],
+  "lightPosition" : [0, 0],
+  "price" : 130,
+  "description" : "A large hanging chandelier designed by familiars.",
+  "shortdescription" : "Familiar Chandelier Large",
+  "race" : "familiar",
+
+  "inventoryIcon" : "familiarchandelierlargeicon.png",
+  "orientations" : [
+    {
+      "image" : "familiarchandelierlarge.png:<color>.<frame>",
+      "imagePosition" : [-20, -8],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "familiarchandelierlarge.png",
+        "fg" : "familiarchandelierlargelit.png"
+      },
+      "animationPosition" : [-20, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "familiarchandelierlarge.png:<color>.<frame>",
+      "imagePosition" : [-20, -8],
+
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "familiarchandelierlarge.png",
+        "fg" : "familiarchandelierlargelit.png"
+      },
+      "animationPosition" : [-20, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "familiarchandelierlarge.png",
+    "fg" : "familiarchandelierlargelit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

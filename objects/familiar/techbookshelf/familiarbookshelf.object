@@ -1,0 +1,51 @@
+{
+  "objectName" : "familiarbookshelf",
+  "colonyTags" : ["familiar","knowledge","storage"],
+  "rarity" : "Common",
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "price" : 120,
+  "description" : "A bulky glowing bookshelf. It has a very unique design.",
+  "shortdescription" : "Familiar Bookcase",
+  "race" : "familiar",
+  "health" : 1.5,
+
+  "apexDescription" : "A Familiar bookcase, I wonder if there's anything here...",
+  "avianDescription" : "Few Avians of my nest are capable of reading.",
+  "floranDescription" : "Floran not like glowly booksss.",
+  "glitchDescription" : "Curious. Why do the books glow?",
+  "humanDescription" : "A book case. My translator has its work cut out.",
+  "hylotlDescription" : "There are many grand libraries at the bottom of Hylotl oceans.",
+  "novakidDescription" : "A fancy light-up sorta bookcase.",
+
+  "inventoryIcon" : "familiarbookshelficon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "familiarbookshelf.png:<color>", "fullbright" : true }, { "image" : "familiarbookshelflit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "familiarbookshelf.png:<color>", "fullbright" : true }, { "image" : "familiarbookshelflit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

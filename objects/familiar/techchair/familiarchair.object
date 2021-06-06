@@ -1,0 +1,51 @@
+{
+  "objectName" : "familiarchair",
+  "colonyTags" : ["familiar"],
+  "rarity" : "Common",
+  "description" : "A surprisingly comfortable chair.",
+  "shortdescription" : "Familiar Chair",
+  "race" : "familiar",
+  "category" : "furniture",
+  "price" : 130,
+  "printable" : false,
+
+  "objectType" : "loungeable",
+
+  "apexDescription" : "An unusually designed chair.",
+  "avianDescription" : "A very relaxing chair.",
+  "floranDescription" : "Floran doesss not underssstand glowly chair.",
+  "glitchDescription" : "Confused. A chair, but why does it glow?",
+  "humanDescription" : "Haven't I seen this before somewhere?",
+  "hylotlDescription" : "The LEDs really give this chair a unique look.",
+  "novakidDescription" : "A fancy light-up sorta chair.",
+  "familiarDescription" : "Probably the coolest chair ever made!",
+
+  "inventoryIcon" : "familiarchairicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ {"image" : "familiarchair.png:<color>", "fullbright":true}, {"image" : "familiarchairlit.png:<color>"} ],
+
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [2.5, 22.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ {"image" : "familiarchair.png:<color>", "fullbright":true }, { "image" : "familiarchairlit.png:<color>" } ],
+
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [2.5, 22.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 3
+        }
+    ],
+    "output": {
+        "item": "familiardoor",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab4",
+        "all"
+    ]
+}

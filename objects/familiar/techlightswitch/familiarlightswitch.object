@@ -1,0 +1,53 @@
+{
+  "objectName" : "familiarlightswitch",
+  "shortdescription" : "Familiar Light Switch",
+  "description" : "A simple light switch commonly found in residential buildings.",
+
+  "noteToSelf" : "write race scan text.",
+
+  "category": "wired",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "wired"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarlightswitchicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarlightswitch.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarlightswitchlit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ],
+
+  "animation" : "familiarlightswitch.animation",
+  "animationParts" : {
+    "bg" : "familiarlightswitch.png",
+    "fg" : "familiarlightswitchlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+
+  "animationPosition" : [0, 0],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ]
+}

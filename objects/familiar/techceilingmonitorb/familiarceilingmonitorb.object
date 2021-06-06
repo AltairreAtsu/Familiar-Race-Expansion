@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarceilingmonitorb",
+  "shortdescription" : "Familiar Ceiling Monitor B",
+  "description" : "A ceiling-mounted monitor displaying information.",
+
+  "noteToSelf" : "write racial descriptions",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "science"],
+  "printable" : false,
+  "price" : 130,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarceilingmonitorbicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarceilingmonitorb.png:<color>", "fullbright" : true }, { "image" : "familiarceilingmonitorblit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "top" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarceilingmonitorb.png:<color>", "fullbright" : true }, { "image" : "familiarceilingmonitorblit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "top" ]
+      }
+  ]
+}

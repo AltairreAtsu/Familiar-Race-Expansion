@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarcupboardendpiece",
+  "shortdescription" : "Familiar Cupboard End Piece",
+  "description" : "An end piece of a cupboard. Part of the modular kitchen set.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 40,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarcupboardendpieceicon.png",
+  "orientations" : [
+      {
+        "image" : "familiarcupboardendpiece.png:<color>",
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "image" : "familiarcupboardendpiece.png:<color>",
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

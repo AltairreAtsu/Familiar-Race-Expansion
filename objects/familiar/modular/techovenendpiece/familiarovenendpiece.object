@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarovenendpiece",
+  "shortdescription" : "Familiar Oven End Piece",
+  "description" : "The end piece of an oven. Part of the modular kitchen set.",
+
+  "noteToSelf" : "write race scan texts. set price.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 40,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarovenendpieceicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarovenendpiece.png:<color>", "fullbright" : true }, { "image" : "familiarovenendpiecelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarovenendpiece.png:<color>", "fullbright" : true }, { "image" : "familiarovenendpiecelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

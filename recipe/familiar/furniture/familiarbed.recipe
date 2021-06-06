@@ -1,0 +1,21 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 3
+        },
+        {
+            "item": "fabric",
+            "count": 20
+        }
+    ],
+    "output": {
+        "item": "familiarbed",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab1",
+        "all"
+    ]
+}

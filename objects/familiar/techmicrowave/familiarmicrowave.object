@@ -1,0 +1,50 @@
+{
+  "objectName" : "familiarmicrowave",
+  "shortdescription" : "Familiar Microwave",
+  "description" : "A kitchen utility used in meal preparation to heat food.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "crafting",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 100,
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Microwave",
+        "subtitle" : " Cooking convenience"
+      }
+    }
+  },
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarmicrowaveicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarmicrowave.png:<color>", "fullbright" : true }, { "image" : "familiarmicrowavelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarmicrowave.png:<color>", "fullbright" : true }, { "image" : "familiarmicrowavelit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

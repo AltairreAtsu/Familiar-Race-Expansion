@@ -1,0 +1,44 @@
+{
+  "objectName" : "familiartoilet",
+  "shortdescription" : "Familiar Toilet",
+  "description" : "A toilet inspired by the techno-fluffy familiars.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 80,
+
+  "objectType" : "loungeable",
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiartoileticon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiartoilet.png:<color>", "fullbright" : true }, { "image" : "familiartoiletlit.png:<color>" } ],
+        "imagePosition" : [-8, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "sitPosition" : [7, 23.5],
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiartoilet.png:<color>", "fullbright" : true }, { "image" : "familiartoiletlit.png:<color>" } ],
+        "imagePosition" : [-8, 0],
+        "direction" : "right",
+
+        "sitPosition" : [7, 23.5],
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

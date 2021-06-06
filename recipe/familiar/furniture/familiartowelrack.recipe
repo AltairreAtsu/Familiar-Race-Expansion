@@ -1,0 +1,21 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 1
+        },
+        {
+            "item": "fabric",
+            "count": 5
+        }
+    ],
+    "output": {
+        "item": "familiartowelrack",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab2",
+        "all"
+    ]
+}

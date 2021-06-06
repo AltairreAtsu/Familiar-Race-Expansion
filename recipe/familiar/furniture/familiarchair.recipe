@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "familiaralloyplate", "count" : 3 },
+    { "item" : "fabric", "count" : 1 }
+  ],
+  "output" : { "item" : "familiarchair", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

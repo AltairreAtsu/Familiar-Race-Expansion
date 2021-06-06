@@ -1,0 +1,45 @@
+{
+  "objectName" : "familiarcrystal",
+  "colonyTags" : ["familiar","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 45,
+  "lightColor" : [6,42,62],
+  "lightPosition" : [1,1],
+
+
+  "description" : "A small decorative crystal.",
+  "shortdescription" : "Familiar Decorative Crystal",
+  "race" : "familiar",
+
+  "apexDescription" : "A potted crystal, I wonder what kind?",
+  "avianDescription" : "I remember seeing something like this in a temple.",
+  "floranDescription" : "Floran not underssstand glowy rock.",
+  "glitchDescription" : "Confused. Why would they pot a crystal.",
+  "humanDescription" : "It's a potted crystal.",
+  "hylotlDescription" : "Why does the pot need LEDs when the cyrstal glows?",
+  "novakidDescription" : "Sure is a fancy crystal!",
+  "familiarDescription" : "A really cool decoration.",
+
+  "inventoryIcon" : "familiarcrystalicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "familiarcrystal.png:<color>", "fullbright" : true }, { "image" : "familiarcrystallit.png:<color>" } ],
+	"direction" : "left",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "familiarcrystal.png:<color>", "fullbright" : true }, { "image" : "familiarcrystallit.png:<color>" } ],
+	"direction" : "right",
+	"flipImages" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

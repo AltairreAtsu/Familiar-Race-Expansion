@@ -1,0 +1,29 @@
+{
+  "objectName" : "familiarlethiaad",
+  "shortdescription" : "Lethia Corp. Ad",
+  "description" : "A poster advertising the Lethia Corporation.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "pretty"],
+  "printable" : false,
+  "price" : 10,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarlethiaadicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarlethiaad.png:<color>", "fullbright" : true }, { "image" : "familiarlethiaadlit.png:<color>" } ],
+        "imagePosition" : [-12, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

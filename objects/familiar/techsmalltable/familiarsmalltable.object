@@ -1,0 +1,45 @@
+{
+  "objectName" : "familiarsmalltable",
+  "colonyTags" : ["commerce","familiar"],
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "A unique table design.",
+  "shortdescription" : "Familiar Small Table",
+  "race" : "familiar",
+  "category" : "furniture",
+  "price" : 80,
+  "lightColor" : [6,42,62],
+  "lightPosition" : [2,2],
+
+  "apexDescription" : "What possible purpose could the tablecloth have?",
+  "avianDescription" : "I'm not a fan of the cold gunmetal, but the cloth is a nice touch!",
+  "floranDescription" : "This table confuses Floran.",
+  "glitchDescription" : "Illogical. The tablecloth is under the tabletop.",
+  "humanDescription" : "I cannot comprehend why this table was designed like this.",
+  "hylotlDescription" : "It's a basic table. It could use more lights.",
+  "novakidDescription" : "A strange table design.",
+  "familiarDescription" : "The metal tabletop protects the tablecloth so you never have to wash it! Brilliant~",
+
+  "inventoryIcon" : "familiarsmalltableicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "familiarsmalltable.png:<color>", "fullbright" : true }, { "image" : "familiarsmalltablelit.png:<color>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "familiarsmalltable.png:<color>", "fullbright" : true }, { "image" : "familiarsmalltablelit.png:<color>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

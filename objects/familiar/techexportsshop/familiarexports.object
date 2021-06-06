@@ -1,0 +1,60 @@
+{
+  "objectName" : "familiarexports",
+  "shortdescription" : "Familiar Exports",
+  "description" : "A shop that sells familiar items and crafting materials.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "other",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "commerce"],
+  "printable" : false,
+  "price" : 100,
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Familiar Exports",
+        "subtitle" : "^#b9b5b2;Crafting Supplies and items"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "frxfurniture1crafting" },
+      { "item" : "familiaralloyplate" },
+      { "item" : "familiarelectronics" }
+    ]
+  },
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarexportsicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarexports.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarexportslit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+        "frames" : 12,
+        "animationCycle" : 1.7,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarexports.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarexportslit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+        "frames" : 12,
+        "animationCycle" : 1.7,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

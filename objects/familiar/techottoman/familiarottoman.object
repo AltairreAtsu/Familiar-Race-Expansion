@@ -1,0 +1,44 @@
+{
+  "objectName" : "familiarottoman",
+  "shortdescription" : "Familiar Ottoman",
+  "description" : "A small cube like seat, very cozy.",
+
+  "noteToSelf" : "write racial scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 60,
+
+  "objectType" : "loungeable",
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarottomanicon.png",
+  "orientations" : [
+      {
+        "image" : "familiarottoman.png:<color>",
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "sitPosition" : [-5, 20],
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "image" : "familiarottoman.png:<color>",
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "sitPosition" : [10, 20],
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

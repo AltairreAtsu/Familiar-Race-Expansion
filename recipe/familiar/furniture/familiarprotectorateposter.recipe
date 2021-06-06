@@ -1,0 +1,17 @@
+{
+    "input": [
+        {
+            "item": "paper",
+            "count": 5
+        }
+    ],
+    "output": {
+        "item": "familiarprotectorateposter",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab2",
+        "all"
+    ]
+}

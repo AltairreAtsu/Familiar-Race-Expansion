@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarcalendar",
+  "shortdescription" : "Familiar Calendar",
+  "description" : "A holographic calendar for keeping track of the date.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "pretty"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarcalendaricon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarcalendar.png:<color>", "fullbright" : true }, { "image" : "familiarcalendarlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarcalendar.png:<color>", "fullbright" : true }, { "image" : "familiarcalendarlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

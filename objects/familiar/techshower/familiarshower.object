@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarshower",
+  "shortdescription" : "Familiar Shower",
+  "description" : "A fancy shower designed by the familiars.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 120,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarshowericon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarshower.png:<color>", "fullbright" : true }, { "image" : "familiarshowerlit.png:<color>" } ],
+        "imagePosition" : [-12, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarshower.png:<color>", "fullbright" : true }, { "image" : "familiarshowerlit.png:<color>" } ],
+        "imagePosition" : [-12, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

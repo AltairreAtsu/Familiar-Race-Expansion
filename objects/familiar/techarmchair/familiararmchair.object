@@ -1,0 +1,55 @@
+{
+  "objectName" : "familiararmchair",
+  "colonyTags" : ["familiar"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 130,
+  "description" : "A couch inspired by the techno-fluffy familiars!",
+  "shortdescription" : "Familiar Armchair",
+  "race" : "familiar",
+  "lightColor" : [6,42,62],
+  "lightPosition" : [2,2],
+
+  "apexDescription" : "A curiously designed couch.",
+  "avianDescription" : "A rather boxy couch.",
+  "floranDescription" : "Floran does not understand metal ssssides.",
+  "glitchDescription" : "Neutral. A bench.",
+  "humanDescription" : "A couch with useless lights installed.",
+  "hylotlDescription" : "The LEDs really give this couch a unique look.",
+  "novakidDescription" : "A fancy light-up sorta couch.",
+  "familiarDescription" : "Probably the coolest couch ever made!",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "familiararmchairicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "familiararmchair.png:<color>", "fullbright" : true }, { "image" : "familiararmchairlit.png:<color>" } ],
+      "imagePosition" : [-12, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [0, 21] // Middle
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "familiararmchair.png:<color>", "fullbright" : true }, { "image" : "familiararmchairlit.png:<color>" } ],
+      "imagePosition" : [-12, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [0, 21] // Middle
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

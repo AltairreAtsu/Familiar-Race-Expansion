@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarcountersink",
+  "shortdescription" : "Familiar Counter Sink",
+  "description" : "A counter with a sink built in. Part of the modular kitchen sink.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "cooking"],
+  "printable" : false,
+  "price" : 80,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarcountersinkicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarcountersink.png:<color>", "fullbright" : true }, { "image" : "familiarcountersinklit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarcountersink.png:<color>", "fullbright" : true }, { "image" : "familiarcountersinklit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

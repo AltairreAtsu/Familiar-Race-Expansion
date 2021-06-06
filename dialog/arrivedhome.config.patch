@@ -1,0 +1,24 @@
+[
+	{
+		"op" : "add",
+		"path" : "/beacon/familiar",
+		"value": {
+			"default": [
+				"Uwaa! I'm back!",
+				"Ya called?",
+				"You wanna talk?."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/familiar",
+		"value": {
+			"default": [
+				"Hey, if it isn't Papa! Here's a little extra; go get yourself a sodie pop~",
+				"I got you a little something for all your help. You deserve it!",
+				"Here's yer allowance, don't spend it all in one place!"
+			]
+		}
+	}
+]

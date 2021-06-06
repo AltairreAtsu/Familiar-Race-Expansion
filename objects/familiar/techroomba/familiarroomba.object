@@ -1,0 +1,42 @@
+{
+  "objectName" : "familiarroomba",
+  "shortdescription" : "Familiar Roomba",
+  "description" : "A small cleaning device commonly found in homes.",
+
+  "noteToSelf" : "write race scan text.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarroombaicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarroomba.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarroombalit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+        "frames" : 4,
+        "animationCycle" : 3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarroomba.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiarroombalit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+        "frames" : 4,
+        "animationCycle" : 3,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

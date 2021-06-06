@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarbiodisplay",
+  "shortdescription" : "Familiar Bio Display",
+  "description" : "A monitor panel displaying information about familiar biology.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "Familiar",
+  "colonyTags" : ["familiar", "science", "pretty"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [2,2],
+
+  "inventoryIcon" : "familiarbiodisplayicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarbiodisplay.png:<color>", "fullbright" : true }, { "image" : "familiarbiodisplaylit.png:<color>" } ],
+        "imagePosition" : [-8, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarbiodisplay.png:<color>", "fullbright" : true }, { "image" : "familiarbiodisplaylit.png:<color>" } ],
+        "imagePosition" : [-8, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

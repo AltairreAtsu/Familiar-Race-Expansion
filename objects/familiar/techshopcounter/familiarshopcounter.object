@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarshopcounter",
+  "shortdescription" : "Familiar Shop Counter",
+  "description" : "A shop counter used by familiars in stores and commercial buildings.",
+
+  "noteToSelf" : "write race scan text.",
+
+  "category": "furniture",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "commerce"],
+  "printable" : false,
+  "price" : 170,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarshopcountericon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarshopcounter.png:<color>", "fullbright" : true }, { "image" : "familiarshopcounterlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarshopcounter.png:<color>", "fullbright" : true }, { "image" : "familiarshopcounterlit.png:<color>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}

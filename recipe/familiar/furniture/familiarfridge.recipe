@@ -1,0 +1,25 @@
+{
+    "input": [
+        {
+            "item": "familiaralloyplate",
+            "count": 2
+        },
+        {
+            "item": "familiarelectronics",
+            "count": 1
+        },
+        {
+            "item": "cryonicextract",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "familiarfridge",
+        "count": 1
+    },
+    "groups": [
+        "frxfurniture1crafter",
+        "frxfurniture1tab4",
+        "all"
+    ]
+}

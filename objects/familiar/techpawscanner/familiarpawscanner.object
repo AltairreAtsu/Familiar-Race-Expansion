@@ -1,0 +1,62 @@
+{
+  "objectName" : "familiarpawscanner",
+  "shortdescription" : "Familiar Paw Scanner",
+  "description" : "A wall-mounted scanner usually used for security applications.",
+
+  "noteToSelf" : "write race scan texts.",
+
+  "category": "wired",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar", "wired", "science"],
+  "printable" : false,
+  "price" : 90,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarpawscannericon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarpawscanner.png:<color>.off", "fullbright" : true }, { "image" : "familiarpawscannerlit.png:<color>.off" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switchwithinput.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexcoolcomputer_switchon.ogg" ],
+      "off" : [ "/sfx/objects/apexcoolcomputer_switchoff.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "switch" : "familiarpawscanner.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallswitch"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

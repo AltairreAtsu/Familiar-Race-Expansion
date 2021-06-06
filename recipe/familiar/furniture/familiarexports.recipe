@@ -1,0 +1,8 @@
+{
+  "currencyInputs":{
+    "money" : 100
+  },
+  "input" : [],
+  "output" : { "item" : "familiarexports", "count" : 1 },
+  "groups" : [ "all", "inventorstable", "craftingstations" ]
+}

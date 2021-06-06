@@ -1,0 +1,62 @@
+{
+  "objectName" : "familiarhanginglights",
+  "colonyTags" : ["familiar","light"],
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "light",
+  "lightColor" : [106, 165, 174],
+  "lightPosition" : [0, 0],
+  "price" : 90,
+  "description" : "Hanging lights designed by familiars.",
+  "shortdescription" : "Familiar Hanging Lights",
+  "race" : "familiar",
+
+  "inventoryIcon" : "familiarhanginglightsicon.png",
+  "orientations" : [
+    {
+      "image" : "familiarhanginglights.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "familiarhanginglights.png",
+        "fg" : "familiarhanginglightslit.png"
+      },
+      "animationPosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "familiarhanginglights.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+
+      "direction" : "right",
+
+      "animationParts" : {
+        "bg" : "familiarhanginglights.png",
+        "fg" : "familiarhanginglightslit.png"
+      },
+      "animationPosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "familiarhanginglights.png",
+    "fg" : "familiarhanginglightslit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

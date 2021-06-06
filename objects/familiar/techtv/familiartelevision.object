@@ -1,0 +1,63 @@
+{
+  "objectName" : "familiartelevision",
+  "shortdescription" : "Familiar Television",
+  "description" : "A fancy tv able to pick up signals from other solar systems.",
+
+  "noteToSelf" : "write race scan texts",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 130,
+  "defaultLightState" : false,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiartelevisionicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiartelevision.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiartelevisionlit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiartelevision.png:<color>.<frame>", "fullbright" : true }, { "image" : "familiartelevisionlit.png:<color>.<frame>" } ],
+        "imagePosition" : [0, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ],
+
+  "animation" : "familiartelevision.animation",
+  "animationParts" : {
+    "bg" : "familiartelevision.png",
+    "fg" : "familiartelevisionlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "animationPosition" : [0, 0],
+
+
+  "scripts" : [
+    "/objects/wired/light/light.lua"
+  ],
+
+  "scriptDelta" : 60,
+
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+}

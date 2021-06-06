@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarbathroomsink",
+  "shortdescription" : "Familiar Bathroom Sink",
+  "description" : "A wall-mounted bathroom sink inspired by the techno-fluffy familiars.",
+
+  "noteToSelf": "Write race scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 80,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarbathroomsinkicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarbathroomsink.png:<color>", "fullbright" : true }, { "image" : "familiarbathroomsinklit.png:<color>" } ],
+        "imagePosition" : [-12, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarbathroomsink.png:<color>", "fullbright" : true }, { "image" : "familiarbathroomsinklit.png:<color>" } ],
+        "imagePosition" : [-12, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+      }
+  ]
+}

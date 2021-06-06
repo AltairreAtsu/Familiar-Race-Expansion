@@ -1,0 +1,12 @@
+{
+  "author" : "Quill Inkwell",
+  "description" : "A mod that expands the familiars race mod by Devcoon!",
+  "friendlyName" : "Familiar Race Expansion",
+  "link" : "steam://url/CommunityFilePage/2482716886",
+  "name" : "familiarraceexpansion",
+  "priority" : 0,
+  "requires" : ["Familiars"],
+  "steamContentId" : "2482716886",
+  "tags" : "Crafting and Building|Species|Furniture and Objects",
+  "version" : "1"
+}

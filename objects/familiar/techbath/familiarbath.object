@@ -1,0 +1,38 @@
+{
+  "objectName" : "familiarbath",
+  "shortdescription" : "Familiar Bath",
+  "description" : "A fancy modern bathtub inspired by the techno-fluffy familiars.",
+
+  "noteToSelf" : "Fill out scan texts.",
+
+  "category": "decorative",
+  "rarity": "Common",
+  "race" : "familiar",
+  "colonyTags" : ["familiar"],
+  "printable" : false,
+  "price" : 120,
+
+  "lightColor" : [6,42,62],
+  "lightPosition" : [0,0],
+
+  "inventoryIcon" : "familiarbathicon.png",
+  "orientations" : [
+      {
+        "imageLayers" : [ { "image" : "familiarbath.png:<color>", "fullbright" : true }, { "image" : "familiarbathlit.png:<color>" } ],
+        "imagePosition" : [-20, 0],
+        "direction" : "left",
+        "flipImages" : true,
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      },
+      {
+        "imageLayers" : [ { "image" : "familiarbath.png:<color>", "fullbright" : true }, { "image" : "familiarbathlit.png:<color>" } ],
+        "imagePosition" : [-20, 0],
+        "direction" : "right",
+
+        "spaceScan" : 0.1,
+        "anchors" : [ "bottom" ]
+      }
+  ]
+}
